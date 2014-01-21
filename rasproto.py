@@ -1,3 +1,13 @@
+'''
+
+The main program for the Raspberry Pi based prototype of Convers[t]ation,
+the panel used to record reports of sexual harassment.
+
+NextWave Project, Fields of View and MediaLAB Amsterdam
+
+Revision: 16th January 2013
+
+'''
 from Tkinter import *
 import PIL
 import sys
