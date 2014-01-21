@@ -111,7 +111,7 @@ def player(filepath):
 
 def recordInto():
 	'''
-	Function to record audio into a wav file
+	Function to record audio into a wav file. Currently disabled.
 	'''
 	global outputfilename
 	global continueRecording
