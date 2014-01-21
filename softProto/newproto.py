@@ -14,8 +14,8 @@ import getopt
 import playwav
 import time
 import tkFont
+import playing
 
-completed = False
 solution = 9
 selector = selectorImage = selectionImage = None
 Option = []
@@ -89,7 +89,13 @@ def initButtonFunctions():
 
 def playFile(filepath):
 	print filepath
+	global completed
+	if not completed:
+		completed = True
+		time.sleep(0.5)
+	completed = False
 	playwav.player(filepath)
+	completed = True
 
 def playAudio():
 	global playFilename
@@ -137,6 +143,7 @@ def getPos( selection ):
 def drawBox(xpos, ypos):
 	global bar
 	bar = []
+	loadImage()
 	for i in range(0, 3, 2):
 		bar.append( [] )
 		bar[i].append( Image.open('slides/selecth.png') )
