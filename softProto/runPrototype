@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python newproto.py sampleReport

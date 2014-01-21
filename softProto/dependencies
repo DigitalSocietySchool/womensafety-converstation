@@ -1,0 +1,14 @@
+#!/bin/bash
+printf "Installing python developer tools:\n\n\n"
+apt-get install python-dev
+printf "\n\n\nInstalling the python imaging library and supplements:\n\n"
+apt-get install python-imaging
+apt-get install python-imaging-tk
+printf "\n\nInstalling ALSA\n\n"
+apt-get install libasound2
+apt-get install libasound2-dev
+printf "\n\nInstalling Python implementation of ALSA\n\n"
+cd pyalsaaudio-0.7
+python setup.py build
+python setup.py install
+printf "\n\nAll dependencies built! You're ready to run the prototype! Type in 'exit' and enter to get out of administrator mode.\n\n"
