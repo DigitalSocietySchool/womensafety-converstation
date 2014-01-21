@@ -13,8 +13,6 @@ import playing
 import alsaaudio
 
 def play(device, f):    
-    global completed
-
     sys.stdout.write('%d channels, %d sampling rate\n' % (f.getnchannels(),
                                                           f.getframerate()))
     # Set attributes
@@ -37,7 +35,7 @@ def play(device, f):
     device.setperiodsize(320)
     
     data = f.readframes(320)
-    while data and not completed:
+    while data and not playing.completed:
         # Read data from stdin
 	device.write(data)
         data = f.readframes(320)

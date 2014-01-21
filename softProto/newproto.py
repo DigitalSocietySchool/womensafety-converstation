@@ -89,13 +89,12 @@ def initButtonFunctions():
 
 def playFile(filepath):
 	print filepath
-	global completed
-	if not completed:
-		completed = True
+	if not playing.completed:
+		playing.completed = True
 		time.sleep(0.5)
-	completed = False
+	playing.completed = False
 	playwav.player(filepath)
-	completed = True
+	playing.completed = True
 
 def playAudio():
 	global playFilename
@@ -334,6 +333,7 @@ def L4():
 	if slideCounter >= 0:
 		currentImage = slideNames[slideCounter]
 		loadImage()
+		audioInstruct()
 	else:
 		sys.exit(-1)
 
@@ -400,6 +400,7 @@ def windowSetup():
 	root.mainloop()
 
 if __name__=='__main__':
+	playing.init()
 	initButtonFunctions()
 	recordingsDirectory()
 	windowSetup()	

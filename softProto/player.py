@@ -2,6 +2,7 @@ from Tkinter import *
 from os import system, path
 from tkFileDialog import askopenfilename
 import threading
+import playing
 import time
 
 filepath = ''
