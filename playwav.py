@@ -1,3 +1,9 @@
+'''
+Modified version of playwav sample program pulled from
+pyALSA's SourceForge.
+Basically plays .wav files.
+'''
+
 #!/usr/bin/env python
 
 # Simple test script that plays (some) wav files
