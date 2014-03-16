@@ -23,7 +23,7 @@ Comissioned by Cisco Systems.
 
 Project Description
 -------------------
-Can be found at:
+Full Project Description can be found at:
 http://medialab.hva.nl/blog/project/womens-safety-india/
 
 
