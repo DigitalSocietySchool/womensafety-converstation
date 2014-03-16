@@ -39,7 +39,7 @@ follows:
 	sudo apt-get install python-rpi.gpio
 
 Execution (on the Raspberry Pi, configured according to the schematics,
-provided as another component of the deliverables):
+provided as seen in schematics_hardware.pdf):
 
 	sudo python rasproto.py <report output folder>
 
