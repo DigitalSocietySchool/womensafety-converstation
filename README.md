@@ -54,13 +54,12 @@ For the Soft Prototype, the following steps are to be followed:
 3. Open terminal (Ctrl+Alt+T), navigate to the softProto folder, and type the following commands:
 
 		chmod a+x dependencies
-	     	chmod a+x runProto
-	     	sudo su
-	     	#	Installation of the dependencies requires administrator priviledges.
-	     	./dependencies
-	     	#      That should build all the required dependencies for the prototype,
-		       so to exit from administrator mode, type:
-	     	exit
+     	chmod a+x runProto
+     	sudo su
+     	#	Installation of the dependencies requires administrator priviledges.
+     	./dependencies
+     	#      That should build all the required dependencies for the prototype, so to exit from administrator mode, type:
+	exit
 
 4. To run the prototype:
 
