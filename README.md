@@ -1,6 +1,6 @@
-Conver[s]tation
-Project NextWave
-MediaLAB Amsterdam
+<center>Conver<i>[s]</i>tation<br>
+<strong>Project NextWave</strong><br>
+MediaLAB Amsterdam</center>
 
 README
 ======
@@ -36,6 +36,7 @@ Most of the dependencies for this program can be built by executing the
 'dependencies' script in the softProto/ folder.
 In addition to the script, the RPi.GPIO Python Module can be installed as
 follows:
+
 	sudo apt-get install python-rpi.gpio
 
 Execution (on the Raspberry Pi, configured according to the schematics,
@@ -50,7 +51,8 @@ For the Soft Prototype, the following steps are to be followed:
 
 1. Download and extract the entire package.
 2. Copy the softProto folder to the appropriate directory.
-3. Open terminal (Ctrl+Alt+T), navigate to the softProto folder, and type the following commands
+3. Open terminal (Ctrl+Alt+T), navigate to the softProto folder, and type the following commands:
+
 	chmod a+x dependencies
      	chmod a+x runProto
      	sudo su
@@ -60,6 +62,7 @@ For the Soft Prototype, the following steps are to be followed:
 	       so to exit from administrator mode, type:
      	exit
 4. To run the prototype:
+
      	./runProto
 
 This should ideally get the prototype running. Not being our primary product, its
@@ -67,5 +70,6 @@ not very robust, and in case pressing the 'Stop' button doesn't kill the panel,
 the only sureshot way of stopping it is closing the terminal (Alt+tab if required).
 But it is unlikely that such a situation would arise.
 To run the prototype again, open up another Terminal (Ctrl+Alt+T), then type:
+
     	cd softProto
     	./runProto
