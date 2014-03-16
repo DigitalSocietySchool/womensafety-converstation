@@ -59,7 +59,7 @@ For the Soft Prototype, the following steps are to be followed:
      	#	Installation of the dependencies requires administrator priviledges.
      	./dependencies
      	#      That should build all the required dependencies for the prototype, so to exit from administrator mode, type:
-	exit
+		exit
 
 4. To run the prototype:
 
