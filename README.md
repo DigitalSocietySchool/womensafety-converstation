@@ -71,5 +71,5 @@ the only sureshot way of stopping it is closing the terminal (Alt+tab if require
 But it is unlikely that such a situation would arise.
 To run the prototype again, open up another Terminal (Ctrl+Alt+T), then type:
 
-    	cd softProto
-    	./runProto
+    cd softProto
+    ./runProto
