@@ -1,4 +1,4 @@
-<center>Conver<i>[s]</i>tation<br>
+<center>Convers<i>[t]</i>ation<br>
 <strong>Project NextWave</strong><br>
 MediaLAB Amsterdam</center>
 
@@ -15,7 +15,7 @@ Authors
 
 What is it?
 -----------
-This repository contains the code/software backend for the 'Conver<i>[s]</i>tation'
+This repository contains the code/software backend for the 'Convers<i>[t]</i>ation'
 reporting panel prototype, made as part of the Women's Safety Project, a
 joint effort by MediaLAB Amsterdam, Fields of View and IIIT Bangalore.
 Comissioned by Cisco Systems.
