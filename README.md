@@ -50,8 +50,7 @@ For the Soft Prototype, the following steps are to be followed:
 
 1. Download and extract the entire package.
 2. Copy the softProto folder to the appropriate directory.
-3. Open terminal (Ctrl+Alt+T), navigate to the softProto folder, and type the
-   following commands:
+3. Open terminal (Ctrl+Alt+T), navigate to the softProto folder, and type the following commands
 	chmod a+x dependencies
      	chmod a+x runProto
      	sudo su
