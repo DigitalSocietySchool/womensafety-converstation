@@ -7,18 +7,18 @@ README
 
 Authors
 -------
-	Bauke Bakker
-	Daksh Varshneya
-	Marissa Memelink
-	Yashvanth Kondi
+* Bauke Bakker
+* Daksh Varshneya
+* Marissa Memelink
+* Yashvanth Kondi
 
 
 What is it?
 -----------
-This repository contains the code/software backend for the 'Conver[s]tation'
+This repository contains the code/software backend for the 'Conver<i>[s]</i>tation'
 reporting panel prototype, made as part of the Women's Safety Project, a
 joint effort by MediaLAB Amsterdam, Fields of View and IIIT Bangalore.
-Comissioned by Cisco System.
+Comissioned by Cisco Systems.
 
 
 Project Description
@@ -56,9 +56,9 @@ For the Soft Prototype, the following steps are to be followed:
 		chmod a+x dependencies
      	chmod a+x runProto
      	sudo su
-     	#	Installation of the dependencies requires administrator priviledges.
+     	#  Installation of the dependencies requires administrator priviledges.
      	./dependencies
-     	#      That should build all the required dependencies for the prototype, so to exit from administrator mode, type:
+     	#  That should build all the required dependencies for the prototype, so exit now.
 		exit
 
 4. To run the prototype:
