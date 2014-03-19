@@ -1,5 +1,6 @@
 <center>Convers<i>[t]</i>ation<br>
 <strong>Project NextWave</strong><br>
+Fields of View<br>
 MediaLAB Amsterdam</center>
 
 README
